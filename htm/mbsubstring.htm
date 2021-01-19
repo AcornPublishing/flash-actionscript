@@ -1,0 +1,163 @@
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="desref.css" type="text/css">
+
+<h1><span lang=EN-US>mbsubstring</span></h1>
+
+<p class=MsoBodyText><span class=Code><span lang=EN-US style='font-family:Courier'>mbsubstring(string,
+num, count)</span></span></p>
+
+<p class=MsoBodyText><span class=Code><span lang=EN-US style='font-family:Courier'>&nbsp;</span></span></p>
+
+<p class=MsoBodyText><span lang=EN-US>Where </span><span class=Code><span
+lang=EN-US style='font-family:Courier'>string</span></span><span lang=EN-US> is
+a string, </span><span class=Code><span lang=EN-US style='font-family:Courier'>num</span></span><span
+lang=EN-US> is the number of the first character to extract, and </span><span
+class=Code><span lang=EN-US style='font-family:Courier'>count</span></span><span
+lang=EN-US> is the number of bytes to extract</span></p>
+
+<p class=MsoBodyText><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoBodyText><span class=ImportantWord><span lang=EN-US
+style='font-family:Helvetica'>Compatible with Flash Player 4 and later</span></span><span
+class=Code><span lang=EN-US>. </span></span><span class=ImportantWord><span lang=EN-US
+style='font-family:Helvetica'>Deprecated by String.substr</span></span><span
+class=Code><span lang=EN-US> in Flash 5 and later.</span></span></p>
+
+<p class=MsoBodyText><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoBodyText><span lang=EN-US>The </span><span class=Code><span
+lang=EN-US style='font-family:Courier'>mbsubstring()</span></span><span
+lang=EN-US> string function extracts a substring from a longer string, starting
+at a particular position and extending for a specified number of characters.
+The first character in the string is taken to be position 1.</span></p>
+
+<h3><span lang=EN-US>Description</span></h3>
+
+<p class=MsoBodyText><span lang=EN-US>The </span><span class=Code><span
+lang=EN-US style='font-family:Courier'>mbsubstring()</span></span><span
+lang=EN-US> function is a string function extracting a substring from a longer
+string. You have to provide the string (either directly or through the use of a
+variable), as well as the starting position of the substring within the string,
+and the length of the substring to extract.</span></p>
+
+<p class=MsoBodyText><span lang=EN-US>&nbsp;</span></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='margin-left:14.2pt;
+ border-collapse:collapse;border:none;'>
+ <tr>
+  <td width=336 valign=top style='width:252.2pt;border-top:solid windowtext .5pt;
+  border-left:none;border-bottom:solid windowtext .5pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText style='margin-left:0cm'><span class=ImportantWord><span
+  lang=EN-US style='font-family:Helvetica'>&nbsp;</span></span></p>
+  <p class=MsoBodyText style='margin-left:0cm'><span class=ImportantWord><span
+  lang=EN-US style='font-family:Helvetica'>Code</span></span></p>
+  <p class=MsoBodyText style='margin-left:0cm'>&nbsp;</p>
+  </td>
+  <td width=216 valign=top style='width:162.0pt;border-top:solid windowtext .5pt;
+  border-left:none;border-bottom:solid windowtext .5pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText style='margin-left:0cm'><span class=ImportantWord><span
+  lang=EN-US style='font-family:Helvetica'>&nbsp;</span></span></p>
+  <p class=MsoBodyText style='margin-left:0cm'><span class=ImportantWord><span
+  lang=EN-US style='font-family:Helvetica'>Additional explanation</span></span></p>
+  <p class=MsoBodyText style='margin-left:0cm'>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=336 valign=top style='width:252.2pt;border:none;border-bottom:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText style='margin-left:0cm'><span class=Code><span
+  lang=EN-US style='font-family:Courier'>&nbsp;</span></span></p>
+  <p class=MsoBodyText style='margin-left:0cm'><span class=Code><span
+  lang=EN-US style='font-family:Courier'>myVar=mbsubstring(“This is a test”, 6,
+  2)</span></span></p>
+  <p class=MsoBodyText style='margin-left:0cm'>&nbsp;</p>
+  </td>
+  <td width=216 valign=top style='width:162.0pt;border:none;border-bottom:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText><span class=Code><span lang=EN-US style='font-family:
+  Courier'>&nbsp;</span></span></p>
+  <p class=MsoBodyText style='margin-left:3.6pt'><span class=Code><span
+  lang=EN-US>Extracts
+  a substring from </span></span><span class=Code><span lang=EN-US
+  style='font-family:Courier'>“This is a test”</span></span><span class=Code><span
+  lang=EN-US>
+  starting at the sixth character and extending two characters.</span></span></p>
+  <p class=MsoBodyText style='margin-left:3.6pt'><span class=Code><span
+  lang=EN-US>&nbsp;</span></span></p>
+  <p class=MsoBodyText style='margin-left:3.6pt'><span class=Code><span
+  lang=EN-US>The
+  string value </span></span><span class=Code><span lang=EN-US
+  style='font-family:Courier'>“is” </span></span><span class=Code><span
+  lang=EN-US>is
+  returned.</span></span></p>
+  <p class=MsoBodyText>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=336 valign=top style='width:252.2pt;border:none;border-bottom:solid windowtext .5pt;background:#D9D9D9;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText style='margin-left:0cm'><span class=Code><span
+  lang=EN-US style='font-family:Courier'>&nbsp;</span></span></p>
+  <p class=MsoBodyText style='margin-left:0cm'><span class=Code><span
+  lang=EN-US style='font-family:Courier'>myVar=mbsubstring()</span></span></p>
+  <p class=MsoBodyText style='margin-left:0cm'><span class=Code><span
+  lang=EN-US style='font-family:Courier'>&nbsp;</span></span></p>
+  <p class=MsoBodyText style='margin-left:0cm'><span class=Code><span
+  lang=EN-US style='font-family:Courier'>&nbsp;</span></span></p>
+  <p class=MsoBodyText style='margin-left:0cm'><span class=Code><span
+  lang=EN-US style='font-family:Courier'>myVar=mbsubstring(“This is a test”, 6
+  )</span></span></p>
+  <p class=MsoBodyText style='margin-left:0cm'>&nbsp;</p>
+  </td>
+  <td width=216 valign=top style='width:162.0pt;border:none;border-bottom:solid windowtext .5pt;background:#D9D9D9;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText><span class=Code><span lang=EN-US style='font-family:
+  Courier'>&nbsp;</span></span></p>
+  <p class=MsoBodyText style='margin-left:3.6pt;'><span
+  class=Code><span lang=EN-US>An argument must be supplied.</span></span></p>
+  <p class=MsoBodyText style='margin-left:3.6pt;'><span
+  class=Code><span lang=EN-US style='font-family:Courier'>&nbsp;</span></span></p>
+  <p class=MsoBodyText style='margin-left:3.6pt;'><span
+  class=Code><span lang=EN-US>There are not enough arguments supplied.</span></span></p>
+  <p class=MsoBodyText>&nbsp;</p>
+  </td>
+ </tr>
+</table>
+
+<h3><span lang=EN-US>Examples and practical uses</span></h3>
+
+<p class=MsoBodyText><span lang=EN-US>The </span><span class=Code><span
+lang=EN-US style='font-family:Courier'>mbsubstring()</span></span><span
+lang=EN-US> function is handy for extracting parts of a larger string for
+further use. For example, this command parses a full name into two components:</span></p>
+
+<p class=MsoBodyText><span class=Code><span lang=EN-US style='font-family:Courier'>&nbsp;</span></span></p>
+
+<p class=MsoBodyText><span class=Code><span lang=EN-US style='font-family:Courier'>myVar
+= “Tim Parker”;</span></span></p>
+
+<p class=MsoBodyText><span class=Code><span lang=EN-US style='font-family:Courier'>mySurname
+= mbsubstring(myVar, 5, 6);</span></span></p>
+
+<p class=MsoBodyText><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoBodyText><span lang=EN-US>The substring capabilities are better
+when you use a search routine to locate a break point in the string, such as a
+space in the above example, and then use that value inside the </span><span
+class=Code><span lang=EN-US style='font-family:Courier'>mbsubstring</span></span><span
+lang=EN-US> parameters.</span></p>
+
+<h3><span lang=EN-US>Tips and precautions</span></h3>
+
+<p class=MsoBodyText><span lang=EN-US>The </span><span class=Code><span
+lang=EN-US style='font-family:Courier'>mbsubstring()</span></span><span
+lang=EN-US> string function was included in Flash 4, but replaced by the </span><span
+class=Code><span lang=EN-US style='font-family:Courier'>String.substr</span></span><span
+lang=EN-US> function (part of the </span><span class=Code><span lang=EN-US
+style='font-family:Courier'>String</span></span><span lang=EN-US> object) in
+Flash 5. While </span><span class=Code><span lang=EN-US style='font-family:
+Courier'>mbsubstring()</span></span><span lang=EN-US> is still supported, using
+the </span><span class=Code><span lang=EN-US style='font-family:Courier'>String</span></span><span
+lang=EN-US> object method is the preferable approach because of greater
+flexibility. (See </span><span class=ImportantWord><span lang=EN-US
+style='font-family:Helvetica'>String.substr</span></span><span lang=EN-US> for
+examples of usage.)</span></p>
+

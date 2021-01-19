@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<clients>
+	<client-ID number="100">
+		<business-name>Flash Design Co. </business-name>
+		<contact-name>John Smith</contact-name>
+		<contact-title>Accounts manager</contact-title>
+
+		<address>1 Main St.</address>
+		<address2>Basement</address2>
+		<city>Miami</city>
+		<state></state>
+		<country></country>
+		<postal-code></postal-code>
+		<phone>555-5555</phone>
+	</client-ID>	
+	<client-ID number="101">
+		<business-name>Dynamic Flash Ltd.</business-name>
+		<contact-name>Jane Doe</contact-name>
+		<contact-title>Lead designer</contact-title>
+		<address></address>
+		<address2></address2>
+		<city>Vancouver</city>
+		<state></state>
+		<country></country>
+		<postal-code></postal-code>
+		<phone>604-555-5545</phone>
+	</client-ID>	
+</clients> 		
+		
+		
+

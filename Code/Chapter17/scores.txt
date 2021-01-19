@@ -1,0 +1,1 @@
+score0=Houston 3 Denver 2&score1=Detroit 4 Boston 5&score2=New York 6 New Jersey 3&score3=Toronto 7 Los Angeles 5&

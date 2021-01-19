@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<menu>
+	<movies>
+		<now-playing>
+			<movie1></movie1>
+		</now-playing>
+		<reviews>
+			<review1></review1>
+		</reviews>
+		<coming-soon>
+			<cs-movie1></cs-movie1>
+		</coming-soon>
+	</movies>
+	<the-theater>
+		<screen/>
+		<sound-system/>
+		<admission/>
+		<map/>
+	</the-theater>
+	<about>
+		<history/>
+		<feedback/>
+		<address/>
+	</about>
+</menu>
+
+		
+		
+

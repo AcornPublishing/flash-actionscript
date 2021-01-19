@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<movie-listings>
+	<movie-theater name="The Flix">
+		<theater-one>
+			<movie-title rating="PG-13">Flashcoders</movie-title>
+				<showing-times>
+					<showing time="6:30pm"/>
+					<showing time="9:00pm"/>
+				</showing-times>
+			<movie-title rating="R"><![CDATA[HTML&DW]]></movie-title>
+				<showing-times>
+					<showing time="7:00pm"/>
+					<showing time="10:30pm"/>
+				</showing-times>
+		</theater-one>
+		<theater-two>
+			<movie-title rating="PG">Cool Coders</movie-title>
+				<showing-times>
+					<showing time="8:30pm"/>
+					<showing time="11:00pm"/>
+					<showing time="2:15am"/>
+				</showing-times>
+		</theater-two>
+	</movie-theater>
+	<movie-theater name="The Squeeze">
+		<theater-one>
+			<movie-title rating="G">My Cat Jimmy</movie-title>
+				<showing-times>
+					<showing time="5:30pm"/>
+					<showing time="7:00pm"/>
+				</showing-times>
+		</theater-one>
+	</movie-theater>
+</movie-listings>
+

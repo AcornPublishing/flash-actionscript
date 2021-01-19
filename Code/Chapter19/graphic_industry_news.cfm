@@ -1,0 +1,1 @@
+<cflocation url="http://p.moreover.com/cgi-local/page?c=Graphics%20industry%20news&o=xml">
